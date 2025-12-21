@@ -1,3 +1,9 @@
+# Lab记录
+
+- [x] [Lab0: networking warmup](doc/lab0_networking_warmup.md)
+
+# 课程自带ReadMe
+
 For build prereqs, see [the CS144 VM setup instructions](https://web.stanford.edu/class/cs144/vm_howto).
 
 ## Sponge quickstart
