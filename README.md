@@ -1,9 +1,3 @@
-# Lab记录
-
-- [x] [Lab0: networking warmup](doc/lab0_networking_warmup.md)
-
-# 课程自带ReadMe
-
 For build prereqs, see [the CS144 VM setup instructions](https://web.stanford.edu/class/cs144/vm_howto).
 
 ## Sponge quickstart
@@ -26,16 +20,11 @@ You can use the `-j` switch to build in parallel, e.g.,
 
 To test (after building; make sure you've got the [build prereqs](https://web.stanford.edu/class/cs144/vm_howto) installed!)
 
-    $ make check_lab0
+    $ make check
 
-or
-
-	$ make check_lab1
-
-etc.
-
-The first time you run a `make check`, it may run `sudo` to configure two
-[TUN](https://www.kernel.org/doc/Documentation/networking/tuntap.txt) devices for use during testing.
+The first time you run `make check`, it will run `sudo` to configure two
+[TUN](https://www.kernel.org/doc/Documentation/networking/tuntap.txt) devices for use during
+testing.
 
 ### build options
 
