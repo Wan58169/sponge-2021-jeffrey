@@ -1,6 +1,6 @@
 # 1-PreAction
 
-在进行Solution分支后，进入sponge目录，创建build文件夹，在build文件夹里执行cmake和make，
+在进入Solution分支的sponge目录，创建build文件夹，在build文件夹里执行cmake和make，
 
 ```bash
 cd sponge-2021-jeffrey
