@@ -1,6 +1,6 @@
 # 1-PreAction
 
-在进行lab0分支后，进入sponge目录，创建build文件夹，在build文件夹里执行cmake和make，
+在进行Solution分支后，进入sponge目录，创建build文件夹，在build文件夹里执行cmake和make，
 
 ```bash
 cd sponge-2021-jeffrey
@@ -72,7 +72,7 @@ class ByteStream {
 
 首先，`buf_`采用标准库中的双向队列作为缓冲区，存放由TCP层传上来的字节流。`cap_`用来限制缓冲区的空间大小。`nread_`记录上层应用已从缓冲区中读取了多少bytes的数据。而`nwrite_`记录TCP层传上来多少bytes的数据。`ended_`标记这条ByteStream是否应该关闭
 
-首先，要实现`remaining_capacity()`，意在看一下当前对列的容量，从而判断还能否容下将要写入的数据。其定义如下，
+首先，要实现`remaining_capacity()`，意在看一下当前队列的容量，从而判断还能否容下将要写入的数据。其定义如下，
 
 ```cpp
 size_t ByteStream::remaining_capacity() const 
